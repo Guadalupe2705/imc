@@ -5,7 +5,7 @@ public class main {
         double estatura = 1.60; //En metros
         double IMC = masa/Math.pow(estatura, 2);
         /*IMC = 75 / (1.65)2 */
-        System.out.println("La persona tiene una masa kg. estaturam. ");
+        System.out.println("La persona tiene una masa kg. estatura m. ");
 
         if(IMC < 16){
             System.out.println("La persona tiene delgadez severa");
